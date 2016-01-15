@@ -1,0 +1,532 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AR	Makefile	/^AR            = ar cqs$/;"	m
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CHttpClient	http_curl.cpp	/^CHttpClient::CHttpClient(void) : $/;"	f	class:CHttpClient
+CHttpClient	http_curl.h	/^class CHttpClient$/;"	c
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+ChangePasswd	changepassword.cpp	/^ChangePasswd::ChangePasswd(QWidget  *parent):$/;"	f	class:ChangePasswd
+ChangePasswd	changepassword.h	/^class   ChangePasswd:public   QWidget$/;"	c
+CheckIpType	netconfig.cpp	/^void    NetConfig::CheckIpType()$/;"	f	class:NetConfig
+CheckNetworkState	mainview.cpp	/^void    mainview::CheckNetworkState()$/;"	f	class:mainview
+CheckService	socketservice.cpp	/^void    SocketService::CheckService(const QString &dmsip)$/;"	f	class:SocketService
+CreateVM	createvm.cpp	/^void       CreateVmlist::CreateVM(const QString &vminfo)$/;"	f	class:CreateVmlist
+CreateVmlist	createvm.cpp	/^    CreateVmlist::CreateVmlist(QWidget  *parent)$/;"	f	class:CreateVmlist
+CreateVmlist	createvm.h	/^class   CreateVmlist:public     QWidget$/;"	c
+DEFINES	Makefile	/^DEFINES       = -DCONFIG_CTRL_IFACE -DCONFIG_CTRL_IFACE_UNIX -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = \/opt\/qtsdk-2010.04\/qt\/mkspecs\/common\/g++.conf \\$/;"	m
+FillContent	netconfig.cpp	/^void  NetConfig::FillContent()$/;"	f	class:NetConfig
+Form	ui_login.h	/^    class Form: public Ui_Form {};$/;"	c	namespace:Ui
+Get	http_curl.cpp	/^int CHttpClient::Get(const std::string & strUrl, std::string & strResponse)$/;"	f	class:CHttpClient
+GetDNS	netconfig.cpp	/^void  NetConfig::GetDNS()$/;"	f	class:NetConfig
+GetDevicename	netconfig.cpp	/^void  NetConfig::GetDevicename()$/;"	f	class:NetConfig
+GetGateway	netconfig.cpp	/^void  NetConfig::GetGateway()$/;"	f	class:NetConfig
+GetIpandNetmask	netconfig.cpp	/^void  NetConfig::GetIpandNetmask()$/;"	f	class:NetConfig
+GetNetConfig	netconfig.cpp	/^void  NetConfig::GetNetConfig()$/;"	f	class:NetConfig
+GetResolution	netconfig.cpp	/^void  NetConfig::GetResolution()$/;"	f	class:NetConfig
+GetUserName	login.h	/^    QString GetUserName()$/;"	f	class:Login
+Gets	http_curl.cpp	/^int CHttpClient::Gets(const std::string & strUrl, std::string & strResponse, const char * pCaPath)$/;"	f	class:CHttpClient
+INCPATH	Makefile	/^INCPATH       = -I\/opt\/qtsdk-2010.04\/qt\/mkspecs\/linux-g++ -I. -I\/opt\/qtsdk-2010.04\/qt\/include\/QtCore -I\/opt\/qtsdk-2010.04\/qt\/include\/QtGui -I\/opt\/qtsdk-2010.04\/qt\/include -I. -I. -I.. -I..\/src -I..\/src\/utils -I. -I \/usr\/local\/include$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+IfJsonData	socketservice.cpp	/^std::string    SocketService::IfJsonData(const std::string &strInfo)$/;"	f	class:SocketService
+JSParse	socketservice.cpp	/^void    SocketService::JSParse(const std::string  &strmsg)$/;"	f	class:SocketService
+KillSpicyThread	mainview.cpp	/^void       mainview::KillSpicyThread(  )$/;"	f	class:mainview
+LFLAGS	Makefile	/^LFLAGS        = -Wl,-O1 -Wl,-rpath,\/opt\/qtsdk-2010.04\/qt\/lib$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/opt\/qtsdk-2010.04\/qt\/lib -lQtGui -L\/opt\/qtsdk-2010.04\/qt\/lib -L\/usr\/X11R6\/lib -lQtCore -lpthread -lQtWebKit -lQtNetwork -lusb -lcurl$/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+LOG	logging.c	/^    void LOG(const char* ms, ... )$/;"	f
+LOGIN_H	login.h	9;"	d
+Login	login.cpp	/^Login::Login(QDialog *parent) :$/;"	f	class:Login
+Login	login.h	/^class Login : public QDialog$/;"	c
+LoginCloud	socketservice.cpp	/^void        SocketService::LoginCloud(const QString &msg)$/;"	f	class:SocketService
+MAINVIEW_H	mainview.h	9;"	d
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+NETWORKCONFIG_H	netconfig.h	9;"	d
+NetConfig	netconfig.cpp	/^NetConfig::NetConfig(QWidget *parent) :$/;"	f	class:NetConfig
+NetConfig	netconfig.h	/^class NetConfig : public QDialog$/;"	c
+NetConfig	ui_netconfig.h	/^    class NetConfig: public Ui_NetConfig {};$/;"	c	namespace:Ui
+NetworkConfig	ui_networkconfig.h	/^    class NetworkConfig: public Ui_NetworkConfig {};$/;"	c	namespace:Ui
+OBJECTS	Makefile	/^OBJECTS       = os_unix.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+OnDebug	http_curl.cpp	/^static int OnDebug(CURL *, curl_infotype itype, char * pData,  void *)$/;"	f	file:
+OnWriteData	http_curl.cpp	/^static size_t OnWriteData(void* buffer, size_t size, size_t nmemb, void* lpVoid)$/;"	f	file:
+Post	http_curl.cpp	/^int CHttpClient::Post(const std::string & strUrl, const std::string & strPost, std::string & strResponse)$/;"	f	class:CHttpClient
+Posts	http_curl.cpp	/^int CHttpClient::Posts(const std::string & strUrl, const std::string & strPost, std::string & strResponse, const char * pCaPath)$/;"	f	class:CHttpClient
+QMAKE	Makefile	/^QMAKE         = \/opt\/qtsdk-2010.04\/qt\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = sunclound_1$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+ReadUSB	socketservice.cpp	/^void        SocketService::ReadUSB()$/;"	f	class:SocketService
+Reset	createvm.cpp	/^void       CreateVmlist::Reset( )$/;"	f	class:CreateVmlist
+ResetUserInfo	socketservice.h	/^    void    ResetUserInfo()$/;"	f	class:SocketService
+SED	Makefile	/^SED           = sed$/;"	m
+SOCKETSERVICE_H	socketservice.h	12;"	d
+SOURCES	Makefile	/^SOURCES       = ..\/src\/utils\/os_unix.c \\$/;"	m
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+ScanResults	ui_scanresults.h	/^    class ScanResults: public Ui_ScanResults {};$/;"	c	namespace:Ui
+SendRegisterData	netconfig.cpp	/^void  NetConfig::SendRegisterData()$/;"	f	class:NetConfig
+SetDebug	http_curl.cpp	/^void CHttpClient::SetDebug(bool bDebug)$/;"	f	class:CHttpClient
+SetStatusVm	createvm.cpp	/^void    CreateVmlist::SetStatusVm(QWidget  *btn,const QString  &status)$/;"	f	class:CreateVmlist
+SocketService	socketservice.cpp	/^SocketService::SocketService(QObject *parent) :$/;"	f	class:SocketService
+SocketService	socketservice.h	/^class SocketService : public QObject$/;"	c
+SpicyThread	mainview.h	/^        SpicyThread()$/;"	f	class:SpicyThread
+SpicyThread	mainview.h	/^class SpicyThread:public  QThread$/;"	c
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = sunclound_1$/;"	m
+UI_LOGIN_H	ui_login.h	11;"	d
+UI_MAINVIEW_H	ui_mainview.h	11;"	d
+UI_NETCONFIG_H	ui_netconfig.h	11;"	d
+UI_NETWORKCONFIG_H	ui_networkconfig.h	11;"	d
+UI_SCANRESULTS_H	ui_scanresults.h	11;"	d
+Ui	login.h	/^namespace Ui{$/;"	n
+Ui	mainview.h	/^namespace Ui {$/;"	n
+Ui	netconfig.h	/^namespace Ui {$/;"	n
+Ui	ui_login.h	/^namespace Ui {$/;"	n
+Ui	ui_mainview.h	/^namespace Ui {$/;"	n
+Ui	ui_netconfig.h	/^namespace Ui {$/;"	n
+Ui	ui_networkconfig.h	/^namespace Ui {$/;"	n
+Ui	ui_scanresults.h	/^namespace Ui {$/;"	n
+Ui_Form	ui_login.h	/^class Ui_Form$/;"	c
+Ui_NetConfig	ui_netconfig.h	/^class Ui_NetConfig$/;"	c
+Ui_NetworkConfig	ui_networkconfig.h	/^class Ui_NetworkConfig$/;"	c
+Ui_ScanResults	ui_scanresults.h	/^class Ui_ScanResults$/;"	c
+Ui_mainview	ui_mainview.h	/^class Ui_mainview$/;"	c
+VGAarg	netconfig.h	/^    QString     VGAarg; $/;"	m	class:NetConfig
+VmFactory	createvm.cpp	/^void        CreateVmlist::VmFactory()$/;"	f	class:CreateVmlist
+Vmgs	createvm.h	/^    QVector <QStringList>  Vmgs;\/\/vmname$/;"	m	class:CreateVmlist
+__CHANGEPASSWORD__	changepassword.h	2;"	d
+__CREATEVM_H__	createvm.h	2;"	d
+__HTTP_CURL_H__	http_curl.h	2;"	d
+__LOGGING_H__	logging.h	2;"	d
+addButton	ui_networkconfig.h	/^    QPushButton *addButton;$/;"	m	class:Ui_NetworkConfig
+authLabel	ui_networkconfig.h	/^    QLabel *authLabel;$/;"	m	class:Ui_NetworkConfig
+authSelect	ui_networkconfig.h	/^    QComboBox *authSelect;$/;"	m	class:Ui_NetworkConfig
+boxmac	socketservice.h	/^    std::string  boxmac;$/;"	m	class:SocketService
+btngp	createvm.h	/^    QButtonGroup  *btngp;$/;"	m	class:CreateVmlist
+buffer	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon1	file:
+cJSON	cJSON.h	/^typedef struct cJSON {$/;"	s
+cJSON	cJSON.h	/^} cJSON;$/;"	t	typeref:struct:cJSON
+cJSON_AddBoolToObject	cJSON.h	137;"	d
+cJSON_AddFalseToObject	cJSON.h	136;"	d
+cJSON_AddItemReferenceToArray	cJSON.c	/^void	cJSON_AddItemReferenceToArray(cJSON *array, cJSON *item)						{cJSON_AddItemToArray(array,create_reference(item));}$/;"	f
+cJSON_AddItemReferenceToObject	cJSON.c	/^void	cJSON_AddItemReferenceToObject(cJSON *object,const char *string,cJSON *item)	{cJSON_AddItemToObject(object,string,create_reference(item));}$/;"	f
+cJSON_AddItemToArray	cJSON.c	/^void   cJSON_AddItemToArray(cJSON *array, cJSON *item)						{cJSON *c=array->child;if (!item) return; if (!c) {array->child=item;} else {while (c && c->next) c=c->next; suffix_object(c,item);}}$/;"	f
+cJSON_AddItemToObject	cJSON.c	/^void   cJSON_AddItemToObject(cJSON *object,const char *string,cJSON *item)	{if (!item) return; if (item->string) cJSON_free(item->string);item->string=cJSON_strdup(string);cJSON_AddItemToArray(object,item);}$/;"	f
+cJSON_AddItemToObjectCS	cJSON.c	/^void   cJSON_AddItemToObjectCS(cJSON *object,const char *string,cJSON *item)	{if (!item) return; if (!(item->type&cJSON_StringIsConst) && item->string) cJSON_free(item->string);item->string=(char*)string;item->type|=cJSON_StringIsConst;cJSON_AddItemToArray(object,item);}$/;"	f
+cJSON_AddNullToObject	cJSON.h	134;"	d
+cJSON_AddNumberToObject	cJSON.h	138;"	d
+cJSON_AddStringToObject	cJSON.h	139;"	d
+cJSON_AddTrueToObject	cJSON.h	135;"	d
+cJSON_Array	cJSON.h	37;"	d
+cJSON_CreateArray	cJSON.c	/^cJSON *cJSON_CreateArray(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Array;return item;}$/;"	f
+cJSON_CreateBool	cJSON.c	/^cJSON *cJSON_CreateBool(int b)					{cJSON *item=cJSON_New_Item();if(item)item->type=b?cJSON_True:cJSON_False;return item;}$/;"	f
+cJSON_CreateDoubleArray	cJSON.c	/^cJSON *cJSON_CreateDoubleArray(const double *numbers,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateFalse	cJSON.c	/^cJSON *cJSON_CreateFalse(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_False;return item;}$/;"	f
+cJSON_CreateFloatArray	cJSON.c	/^cJSON *cJSON_CreateFloatArray(const float *numbers,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateIntArray	cJSON.c	/^cJSON *cJSON_CreateIntArray(const int *numbers,int count)		{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateNumber(numbers[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateNull	cJSON.c	/^cJSON *cJSON_CreateNull(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_NULL;return item;}$/;"	f
+cJSON_CreateNumber	cJSON.c	/^cJSON *cJSON_CreateNumber(double num)			{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_Number;item->valuedouble=num;item->valueint=(int)num;}return item;}$/;"	f
+cJSON_CreateObject	cJSON.c	/^cJSON *cJSON_CreateObject(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_Object;return item;}$/;"	f
+cJSON_CreateString	cJSON.c	/^cJSON *cJSON_CreateString(const char *string)	{cJSON *item=cJSON_New_Item();if(item){item->type=cJSON_String;item->valuestring=cJSON_strdup(string);}return item;}$/;"	f
+cJSON_CreateStringArray	cJSON.c	/^cJSON *cJSON_CreateStringArray(const char **strings,int count)	{int i;cJSON *n=0,*p=0,*a=cJSON_CreateArray();for(i=0;a && i<count;i++){n=cJSON_CreateString(strings[i]);if(!i)a->child=n;else suffix_object(p,n);p=n;}return a;}$/;"	f
+cJSON_CreateTrue	cJSON.c	/^cJSON *cJSON_CreateTrue(void)					{cJSON *item=cJSON_New_Item();if(item)item->type=cJSON_True;return item;}$/;"	f
+cJSON_Delete	cJSON.c	/^void cJSON_Delete(cJSON *c)$/;"	f
+cJSON_DeleteItemFromArray	cJSON.c	/^void   cJSON_DeleteItemFromArray(cJSON *array,int which)			{cJSON_Delete(cJSON_DetachItemFromArray(array,which));}$/;"	f
+cJSON_DeleteItemFromObject	cJSON.c	/^void   cJSON_DeleteItemFromObject(cJSON *object,const char *string) {cJSON_Delete(cJSON_DetachItemFromObject(object,string));}$/;"	f
+cJSON_DetachItemFromArray	cJSON.c	/^cJSON *cJSON_DetachItemFromArray(cJSON *array,int which)			{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return 0;$/;"	f
+cJSON_DetachItemFromObject	cJSON.c	/^cJSON *cJSON_DetachItemFromObject(cJSON *object,const char *string) {int i=0;cJSON *c=object->child;while (c && cJSON_strcasecmp(c->string,string)) i++,c=c->next;if (c) return cJSON_DetachItemFromArray(object,i);return 0;}$/;"	f
+cJSON_Duplicate	cJSON.c	/^cJSON *cJSON_Duplicate(cJSON *item,int recurse)$/;"	f
+cJSON_False	cJSON.h	32;"	d
+cJSON_GetArrayItem	cJSON.c	/^cJSON *cJSON_GetArrayItem(cJSON *array,int item)				{cJSON *c=array->child;  while (c && item>0) item--,c=c->next; return c;}$/;"	f
+cJSON_GetArraySize	cJSON.c	/^int    cJSON_GetArraySize(cJSON *array)							{cJSON *c=array->child;int i=0;while(c)i++,c=c->next;return i;}$/;"	f
+cJSON_GetErrorPtr	cJSON.c	/^const char *cJSON_GetErrorPtr(void) {return ep;}$/;"	f
+cJSON_GetObjectItem	cJSON.c	/^cJSON *cJSON_GetObjectItem(cJSON *object,const char *string)	{cJSON *c=object->child; while (c && cJSON_strcasecmp(c->string,string)) c=c->next; return c;}$/;"	f
+cJSON_Hooks	cJSON.h	/^typedef struct cJSON_Hooks {$/;"	s
+cJSON_Hooks	cJSON.h	/^} cJSON_Hooks;$/;"	t	typeref:struct:cJSON_Hooks
+cJSON_InitHooks	cJSON.c	/^void cJSON_InitHooks(cJSON_Hooks* hooks)$/;"	f
+cJSON_InsertItemInArray	cJSON.c	/^void   cJSON_InsertItemInArray(cJSON *array,int which,cJSON *newitem)		{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) {cJSON_AddItemToArray(array,newitem);return;}$/;"	f
+cJSON_IsReference	cJSON.h	40;"	d
+cJSON_Minify	cJSON.c	/^void cJSON_Minify(char *json)$/;"	f
+cJSON_NULL	cJSON.h	34;"	d
+cJSON_New_Item	cJSON.c	/^static cJSON *cJSON_New_Item(void)$/;"	f	file:
+cJSON_Number	cJSON.h	35;"	d
+cJSON_Object	cJSON.h	38;"	d
+cJSON_Parse	cJSON.c	/^cJSON *cJSON_Parse(const char *value) {return cJSON_ParseWithOpts(value,0,0);}$/;"	f
+cJSON_ParseWithOpts	cJSON.c	/^cJSON *cJSON_ParseWithOpts(const char *value,const char **return_parse_end,int require_null_terminated)$/;"	f
+cJSON_Print	cJSON.c	/^char *cJSON_Print(cJSON *item)				{return print_value(item,0,1,0);}$/;"	f
+cJSON_PrintBuffered	cJSON.c	/^char *cJSON_PrintBuffered(cJSON *item,int prebuffer,int fmt)$/;"	f
+cJSON_PrintUnformatted	cJSON.c	/^char *cJSON_PrintUnformatted(cJSON *item)	{return print_value(item,0,0,0);}$/;"	f
+cJSON_ReplaceItemInArray	cJSON.c	/^void   cJSON_ReplaceItemInArray(cJSON *array,int which,cJSON *newitem)		{cJSON *c=array->child;while (c && which>0) c=c->next,which--;if (!c) return;$/;"	f
+cJSON_ReplaceItemInObject	cJSON.c	/^void   cJSON_ReplaceItemInObject(cJSON *object,const char *string,cJSON *newitem){int i=0;cJSON *c=object->child;while(c && cJSON_strcasecmp(c->string,string))i++,c=c->next;if(c){newitem->string=cJSON_strdup(string);cJSON_ReplaceItemInArray(object,i,newitem);}}$/;"	f
+cJSON_SetIntValue	cJSON.h	142;"	d
+cJSON_SetNumberValue	cJSON.h	143;"	d
+cJSON_String	cJSON.h	36;"	d
+cJSON_StringIsConst	cJSON.h	41;"	d
+cJSON_True	cJSON.h	33;"	d
+cJSON__h	cJSON.h	24;"	d
+cJSON_free	cJSON.c	/^static void (*cJSON_free)(void *ptr) = free;$/;"	v	file:
+cJSON_malloc	cJSON.c	/^static void *(*cJSON_malloc)(size_t sz) = malloc;$/;"	v	file:
+cJSON_strcasecmp	cJSON.c	/^static int cJSON_strcasecmp(const char *s1,const char *s2)$/;"	f	file:
+cJSON_strdup	cJSON.c	/^static char* cJSON_strdup(const char* str)$/;"	f	file:
+cacertEdit	ui_networkconfig.h	/^    QLineEdit *cacertEdit;$/;"	m	class:Ui_NetworkConfig
+cacertLabel	ui_networkconfig.h	/^    QLabel *cacertLabel;$/;"	m	class:Ui_NetworkConfig
+cancelButton	ui_networkconfig.h	/^    QPushButton *cancelButton;$/;"	m	class:Ui_NetworkConfig
+cdmpip	mainview.h	/^        QString         cdmpip;$/;"	m	class:mainview
+cdms_ip	netconfig.h	/^    QString     cdms_ip;$/;"	m	class:NetConfig
+cdmsip	socketservice.h	/^    std::string  cdmsip;$/;"	m	class:SocketService
+changeColor	createvm.cpp	/^void    CreateVmlist::changeColor(QListWidgetItem *item)$/;"	f	class:CreateVmlist
+changeColor	mainview.cpp	/^void    mainview::changeColor(QListWidgetItem *item)$/;"	f	class:mainview
+changepasswd	mainview.h	/^        ChangePasswd    *changepasswd;$/;"	m	class:mainview
+changeslots	mainview.cpp	/^void    mainview::changeslots(int   currentindex)$/;"	f	class:mainview
+checkBox	ui_login.h	/^    QCheckBox *checkBox;$/;"	m	class:Ui_Form
+check_cdms_signals	moc_login.cpp	/^void Login::check_cdms_signals()$/;"	f	class:Login
+checkmigrate	socketservice.h	/^    QString  checkmigrate;$/;"	m	class:SocketService
+checkuserinfo	createvm.cpp	/^void    CreateVmlist::checkuserinfo(const QString &userpasswd)$/;"	f	class:CreateVmlist
+child	cJSON.h	/^	struct cJSON *child;		\/* An array or object item will have a child pointer pointing to a chain of the items in the array\/object. *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+closeButton	ui_scanresults.h	/^    QPushButton *closeButton;$/;"	m	class:Ui_ScanResults
+closecomputer	mainview.cpp	/^void    mainview::closecomputer()$/;"	f	class:mainview
+cmd	mainview.h	/^        QString  cmd;$/;"	m	class:SpicyThread
+comboBox	ui_netconfig.h	/^    QComboBox *comboBox;$/;"	m	class:Ui_NetConfig
+comboBox_2	ui_netconfig.h	/^    QComboBox *comboBox_2;$/;"	m	class:Ui_NetConfig
+create_reference	cJSON.c	/^static cJSON *create_reference(cJSON *item) {cJSON *ref=cJSON_New_Item();if (!ref) return 0;memcpy(ref,item,sizeof(cJSON));ref->string=0;ref->type|=cJSON_IsReference;ref->next=ref->prev=0;return ref;}$/;"	f	file:
+currentResolution	netconfig.h	/^    QString     currentResolution;$/;"	m	class:NetConfig
+deal_choicevmslots	createvm.cpp	/^void    CreateVmlist::deal_choicevmslots(int id)$/;"	f	class:CreateVmlist
+deal_operatorslots	createvm.cpp	/^void    CreateVmlist::deal_operatorslots(int id)$/;"	f	class:CreateVmlist
+deal_slots	createvm.cpp	/^void    CreateVmlist::deal_slots(int  id)$/;"	f	class:CreateVmlist
+deal_widgets	mainview.cpp	/^void    mainview::deal_widgets(int  id)$/;"	f	class:mainview
+devicename	netconfig.h	/^    QString     devicename;$/;"	m	class:NetConfig
+displayErrorSlots	socketservice.cpp	/^void    SocketService::displayErrorSlots(const QString &mg)$/;"	f	class:SocketService
+dns	netconfig.h	/^    QString     dns;$/;"	m	class:NetConfig
+doChangResolution	netconfig.cpp	/^void    NetConfig::doChangResolution()$/;"	f	class:NetConfig
+doChangStyleForGetIP	netconfig.cpp	/^void    NetConfig::doChangStyleForGetIP()$/;"	f	class:NetConfig
+doGetCdms	netconfig.cpp	/^void  NetConfig::doGetCdms()$/;"	f	class:NetConfig
+doUpdateInfo	changepassword.cpp	/^void    ChangePasswd::doUpdateInfo()$/;"	f	class:ChangePasswd
+docancel	moc_changepassword.cpp	/^void ChangePasswd::docancel()$/;"	f	class:ChangePasswd
+docreen	mainview.cpp	/^void    mainview::docreen()$/;"	f	class:mainview
+eapLabel	ui_networkconfig.h	/^    QLabel *eapLabel;$/;"	m	class:Ui_NetworkConfig
+eapSelect	ui_networkconfig.h	/^    QComboBox *eapSelect;$/;"	m	class:Ui_NetworkConfig
+emit_checkcdms_signal	mainview.cpp	/^void    mainview::emit_checkcdms_signal()$/;"	f	class:mainview
+emit_connect_signals	createvm.cpp	/^void    CreateVmlist::emit_connect_signals()$/;"	f	class:CreateVmlist
+emit_reboot_signals	createvm.cpp	/^void    CreateVmlist::emit_reboot_signals()$/;"	f	class:CreateVmlist
+emit_shutdown_signals	createvm.cpp	/^void    CreateVmlist::emit_shutdown_signals()$/;"	f	class:CreateVmlist
+emit_signals_checkcdms	login.cpp	/^void    Login::emit_signals_checkcdms()$/;"	f	class:Login
+emit_start_signals	createvm.cpp	/^void    CreateVmlist::emit_start_signals()$/;"	f	class:CreateVmlist
+emit_widgets	mainview.cpp	/^void    mainview::emit_widgets(int  id)$/;"	f	class:mainview
+encrLabel	ui_networkconfig.h	/^    QLabel *encrLabel;$/;"	m	class:Ui_NetworkConfig
+encrSelect	ui_networkconfig.h	/^    QComboBox *encrSelect;$/;"	m	class:Ui_NetworkConfig
+ensure	cJSON.c	/^static char* ensure(printbuffer *p,int needed)$/;"	f	file:
+enterBtn	createvm.cpp	/^bool        CreateVmlist::enterBtn(QMouseEvent  *e,QWidget  *btn,int  n)$/;"	f	class:CreateVmlist
+enterBtn	mainview.cpp	/^bool    mainview::enterBtn(QPoint  p,QWidget  *btn)$/;"	f	class:mainview
+ep	cJSON.c	/^static const char *ep;$/;"	v	file:
+firstByteMark	cJSON.c	/^static const unsigned char firstByteMark[7] = { 0x00, 0x00, 0xC0, 0xE0, 0xF0, 0xF8, 0xFC };$/;"	v	file:
+frame9	ui_networkconfig.h	/^    QFrame *frame9;$/;"	m	class:Ui_NetworkConfig
+free_fn	cJSON.h	/^      void (*free_fn)(void *ptr);$/;"	m	struct:cJSON_Hooks
+gateway_info	netconfig.h	/^    QString     gateway_info;$/;"	m	class:NetConfig
+getStaticMetaObject	moc_changepassword.cpp	/^const QMetaObject &ChangePasswd::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:ChangePasswd
+getStaticMetaObject	moc_createvm.cpp	/^const QMetaObject &CreateVmlist::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:CreateVmlist
+getStaticMetaObject	moc_login.cpp	/^const QMetaObject &Login::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:Login
+getStaticMetaObject	moc_mainview.cpp	/^const QMetaObject &mainview::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:mainview
+getStaticMetaObject	moc_netconfig.cpp	/^const QMetaObject &NetConfig::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:NetConfig
+getStaticMetaObject	moc_networkconfig.cpp	/^const QMetaObject &NetworkConfig::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:NetworkConfig
+getStaticMetaObject	moc_scanresults.cpp	/^const QMetaObject &ScanResults::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:ScanResults
+getStaticMetaObject	moc_signalbar.cpp	/^const QMetaObject &SignalBar::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:SignalBar
+getStaticMetaObject	moc_socketservice.cpp	/^const QMetaObject &SocketService::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:SocketService
+getStaticMetaObject	moc_wifi.cpp	/^const QMetaObject &Wifi::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:Wifi
+getcdmsslots	mainview.cpp	/^void    mainview::getcdmsslots(const QString  &mg)$/;"	f	class:mainview
+getconnectinfo_slots	socketservice.cpp	/^void    SocketService::getconnectinfo_slots(const QString &vminfo)$/;"	f	class:SocketService
+gethostlist_slots	socketservice.cpp	/^void    SocketService::gethostlist_slots()$/;"	f	class:SocketService
+getuserinfo	createvm.cpp	/^void    CreateVmlist::getuserinfo(const QString &userpasswd)$/;"	f	class:CreateVmlist
+gridLayout	ui_networkconfig.h	/^    QGridLayout *gridLayout;$/;"	m	class:Ui_NetworkConfig
+gridLayout1	ui_networkconfig.h	/^    QGridLayout *gridLayout1;$/;"	m	class:Ui_NetworkConfig
+gridLayout2	ui_networkconfig.h	/^    QGridLayout *gridLayout2;$/;"	m	class:Ui_NetworkConfig
+gridLayout3	ui_networkconfig.h	/^    QGridLayout *gridLayout3;$/;"	m	class:Ui_NetworkConfig
+hboxLayout	ui_scanresults.h	/^    QHBoxLayout *hboxLayout;$/;"	m	class:Ui_ScanResults
+helpoperator	mainview.cpp	/^void    mainview::helpoperator()$/;"	f	class:mainview
+hostlist	mainview.h	/^        CreateVmlist    *hostlist;$/;"	m	class:mainview
+http	mainview.h	/^        SocketService   *http;$/;"	m	class:mainview
+http	socketservice.h	/^    CHttpClient *http; $/;"	m	class:SocketService
+httpcache	socketservice.h	/^    std::string  httpcache;$/;"	m	class:SocketService
+httphead	socketservice.h	/^    std::string  httphead;$/;"	m	class:SocketService
+identityEdit	ui_networkconfig.h	/^    QLineEdit *identityEdit;$/;"	m	class:Ui_NetworkConfig
+identityLabel	ui_networkconfig.h	/^    QLabel *identityLabel;$/;"	m	class:Ui_NetworkConfig
+ids	createvm.h	/^    QVector <QString>  ids;$/;"	m	class:CreateVmlist
+idstrEdit	ui_networkconfig.h	/^    QLineEdit *idstrEdit;$/;"	m	class:Ui_NetworkConfig
+idstrLabel	ui_networkconfig.h	/^    QLabel *idstrLabel;$/;"	m	class:Ui_NetworkConfig
+idvm	createvm.h	/^    int     idvm;\/\/restart or shutdown by the idvm of button$/;"	m	class:CreateVmlist
+initUserInfo	login.cpp	/^void    Login::initUserInfo()$/;"	f	class:Login
+insnewpd	changepassword.h	/^        QLineEdit    *insnewpd ;$/;"	m	class:ChangePasswd
+insnewpd1	changepassword.h	/^        QLineEdit    *insnewpd1;$/;"	m	class:ChangePasswd
+insoldpd	changepassword.h	/^        QLineEdit    *insoldpd ;$/;"	m	class:ChangePasswd
+ip_info	netconfig.h	/^    QString     ip_info;$/;"	m	class:NetConfig
+iptype	netconfig.h	/^    QString     iptype;$/;"	m	class:NetConfig
+isableconnectslots	socketservice.cpp	/^void    SocketService::isableconnectslots(const QString &vmid)$/;"	f	class:SocketService
+label	ui_netconfig.h	/^    QLabel *label;$/;"	m	class:Ui_NetConfig
+label_2	ui_netconfig.h	/^    QLabel *label_2;$/;"	m	class:Ui_NetConfig
+label_24	ui_netconfig.h	/^    QLabel *label_24;$/;"	m	class:Ui_NetConfig
+label_25	ui_netconfig.h	/^    QLabel *label_25;$/;"	m	class:Ui_NetConfig
+label_4	ui_netconfig.h	/^    QLabel *label_4;$/;"	m	class:Ui_NetConfig
+label_5	ui_netconfig.h	/^    QLabel *label_5;$/;"	m	class:Ui_NetConfig
+label_6	ui_netconfig.h	/^    QLabel *label_6;$/;"	m	class:Ui_NetConfig
+label_7	ui_netconfig.h	/^    QLabel *label_7;$/;"	m	class:Ui_NetConfig
+label_8	ui_netconfig.h	/^    QLabel *label_8;$/;"	m	class:Ui_NetConfig
+label_9	ui_netconfig.h	/^    QLabel *label_9;$/;"	m	class:Ui_NetConfig
+labels	createvm.h	/^    QList <QLabel *>  labels;$/;"	m	class:CreateVmlist
+length	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon1	file:
+line	ui_netconfig.h	/^    QFrame *line;$/;"	m	class:Ui_NetConfig
+lineEdit	ui_login.h	/^    QLineEdit *lineEdit;$/;"	m	class:Ui_Form
+lineEdit	ui_netconfig.h	/^    QLineEdit *lineEdit;$/;"	m	class:Ui_NetConfig
+lineEdit_2	ui_login.h	/^    QLineEdit *lineEdit_2;$/;"	m	class:Ui_Form
+lineEdit_2	ui_netconfig.h	/^    QLineEdit *lineEdit_2;$/;"	m	class:Ui_NetConfig
+lineEdit_3	ui_netconfig.h	/^    QLineEdit *lineEdit_3;$/;"	m	class:Ui_NetConfig
+lineEdit_4	ui_netconfig.h	/^    QLineEdit *lineEdit_4;$/;"	m	class:Ui_NetConfig
+lineEdit_5	ui_netconfig.h	/^    QLineEdit *lineEdit_5;$/;"	m	class:Ui_NetConfig
+list	createvm.h	/^    QListWidget      *list;$/;"	m	class:CreateVmlist
+loadoperator	moc_mainview.cpp	/^void mainview::loadoperator(int _t1)$/;"	f	class:mainview
+localhostname	netconfig.h	/^    QString     localhostname;$/;"	m	class:NetConfig
+localnetinform	netconfig.h	/^    QString     localnetinform;$/;"	m	class:NetConfig
+localusbinfo	socketservice.h	/^    std::string  localusbinfo;$/;"	m	class:SocketService
+login	mainview.h	/^        Login           *login;$/;"	m	class:mainview
+loginRequest	moc_login.cpp	/^void Login::loginRequest(const QString & _t1)$/;"	f	class:Login
+login_slots	socketservice.cpp	/^void    SocketService::login_slots(const QString &userpasswd)$/;"	f	class:SocketService
+login_state	socketservice.h	/^    bool    login_state;$/;"	m	class:SocketService
+logipslots	socketservice.cpp	/^void            SocketService::logipslots(const QString &vmid)$/;"	f	class:SocketService
+logo_x	mainview.h	/^        int             logo_x;$/;"	m	class:mainview
+logo_y	mainview.h	/^        int             logo_y;$/;"	m	class:mainview
+lskey	createvm.h	/^    int     lskey;$/;"	m	class:CreateVmlist
+m_bDebug	http_curl.h	/^        bool m_bDebug;$/;"	m	class:CHttpClient
+macaddress	netconfig.h	/^    QString     macaddress;$/;"	m	class:NetConfig
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+mainview	mainview.cpp	/^mainview::mainview(QWidget *parent) :$/;"	f	class:mainview
+mainview	mainview.h	/^class mainview : public QWidget$/;"	c
+mainview	ui_mainview.h	/^    class mainview: public Ui_mainview {};$/;"	c	namespace:Ui
+malloc_fn	cJSON.h	/^      void *(*malloc_fn)(size_t sz);$/;"	m	struct:cJSON_Hooks
+mask_info	netconfig.h	/^    QString     mask_info;$/;"	m	class:NetConfig
+metaObject	moc_changepassword.cpp	/^const QMetaObject *ChangePasswd::metaObject() const$/;"	f	class:ChangePasswd
+metaObject	moc_createvm.cpp	/^const QMetaObject *CreateVmlist::metaObject() const$/;"	f	class:CreateVmlist
+metaObject	moc_login.cpp	/^const QMetaObject *Login::metaObject() const$/;"	f	class:Login
+metaObject	moc_mainview.cpp	/^const QMetaObject *mainview::metaObject() const$/;"	f	class:mainview
+metaObject	moc_netconfig.cpp	/^const QMetaObject *NetConfig::metaObject() const$/;"	f	class:NetConfig
+metaObject	moc_networkconfig.cpp	/^const QMetaObject *NetworkConfig::metaObject() const$/;"	f	class:NetworkConfig
+metaObject	moc_scanresults.cpp	/^const QMetaObject *ScanResults::metaObject() const$/;"	f	class:ScanResults
+metaObject	moc_signalbar.cpp	/^const QMetaObject *SignalBar::metaObject() const$/;"	f	class:SignalBar
+metaObject	moc_socketservice.cpp	/^const QMetaObject *SocketService::metaObject() const$/;"	f	class:SocketService
+metaObject	moc_wifi.cpp	/^const QMetaObject *Wifi::metaObject() const$/;"	f	class:Wifi
+method_ip	netconfig.h	/^    QString     method_ip;$/;"	m	class:NetConfig
+modifyIpandNetMask	netconfig.cpp	/^void    NetConfig::modifyIpandNetMask()$/;"	f	class:NetConfig
+modifycdmsSlots	socketservice.cpp	/^void     SocketService::modifycdmsSlots(const QString &newip)$/;"	f	class:SocketService
+modifygateway	netconfig.cpp	/^    void    NetConfig::modifygateway()$/;"	f	class:NetConfig
+moreoperator	mainview.cpp	/^void    mainview::moreoperator()$/;"	f	class:mainview
+mouseMoveEvent	mainview.cpp	/^void    mainview::mouseMoveEvent(QMouseEvent  *e)$/;"	f	class:mainview
+mousePressEvent	createvm.cpp	/^void    CreateVmlist::mousePressEvent(QMouseEvent *e)$/;"	f	class:CreateVmlist
+mousePressEvent	mainview.cpp	/^void    mainview::mousePressEvent(QMouseEvent  *e)$/;"	f	class:mainview
+netconfig	mainview.h	/^        NetConfig   *netconfig;$/;"	m	class:mainview
+newuser	createvm.h	/^    QString  user,newuser;$/;"	m	class:CreateVmlist
+next	cJSON.h	/^	struct cJSON *next,*prev;	\/* next\/prev allow you to walk array\/object chains. Alternatively, use GetArraySize\/GetArrayItem\/GetObjectItem *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::cJSON
+nums_vm	createvm.h	/^        int     nums_vm;\/\/the number of vmachine$/;"	m	class:CreateVmlist
+offset	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	m	struct:__anon1	file:
+opasswd	changepassword.h	/^        QString         opasswd ;$/;"	m	class:ChangePasswd
+open	mainview.h	/^        bool    open;$/;"	m	class:mainview
+optionalSettingsBox	ui_networkconfig.h	/^    QGroupBox *optionalSettingsBox;$/;"	m	class:Ui_NetworkConfig
+paintEvent	login.cpp	/^void    Login::paintEvent(QPaintEvent  *)$/;"	f	class:Login
+paintEvent	mainview.cpp	/^void    mainview::paintEvent(QPaintEvent *)$/;"	f	class:mainview
+parse_array	cJSON.c	/^static const char *parse_array(cJSON *item,const char *value)$/;"	f	file:
+parse_hex4	cJSON.c	/^static unsigned parse_hex4(const char *str)$/;"	f	file:
+parse_number	cJSON.c	/^static const char *parse_number(cJSON *item,const char *num)$/;"	f	file:
+parse_object	cJSON.c	/^static const char *parse_object(cJSON *item,const char *value)$/;"	f	file:
+parse_string	cJSON.c	/^static const char *parse_string(cJSON *item,const char *str)$/;"	f	file:
+parse_value	cJSON.c	/^static const char *parse_value(cJSON *item,const char *value)$/;"	f	file:
+passwd	socketservice.h	/^    std::string  passwd;$/;"	m	class:SocketService
+password	login.h	/^    QString  password;$/;"	m	class:Login
+password	netconfig.h	/^    QString     password;$/;"	m	class:NetConfig
+passwordEdit	ui_networkconfig.h	/^    QLineEdit *passwordEdit;$/;"	m	class:Ui_NetworkConfig
+passwordLabel	ui_networkconfig.h	/^    QLabel *passwordLabel;$/;"	m	class:Ui_NetworkConfig
+phase2Label	ui_networkconfig.h	/^    QLabel *phase2Label;$/;"	m	class:Ui_NetworkConfig
+phase2Select	ui_networkconfig.h	/^    QComboBox *phase2Select;$/;"	m	class:Ui_NetworkConfig
+pow2gt	cJSON.c	/^static int pow2gt (int x)	{	--x;	x|=x>>1;	x|=x>>2;	x|=x>>4;	x|=x>>8;	x|=x>>16;	return x+1;	}$/;"	f	file:
+prev	cJSON.h	/^	struct cJSON *next,*prev;	\/* next\/prev allow you to walk array\/object chains. Alternatively, use GetArraySize\/GetArrayItem\/GetObjectItem *\/$/;"	m	struct:cJSON	typeref:struct:cJSON::
+print_array	cJSON.c	/^static char *print_array(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+print_number	cJSON.c	/^static char *print_number(cJSON *item,printbuffer *p)$/;"	f	file:
+print_object	cJSON.c	/^static char *print_object(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+print_string	cJSON.c	/^static char *print_string(cJSON *item,printbuffer *p)	{return print_string_ptr(item->valuestring,p);}$/;"	f	file:
+print_string_ptr	cJSON.c	/^static char *print_string_ptr(const char *str,printbuffer *p)$/;"	f	file:
+print_value	cJSON.c	/^static char *print_value(cJSON *item,int depth,int fmt,printbuffer *p)$/;"	f	file:
+printbuffer	cJSON.c	/^typedef struct {char *buffer; int length; int offset; } printbuffer;$/;"	t	typeref:struct:__anon1	file:
+priorityLabel	ui_networkconfig.h	/^    QLabel *priorityLabel;$/;"	m	class:Ui_NetworkConfig
+prioritySpinBox	ui_networkconfig.h	/^    QSpinBox *prioritySpinBox;$/;"	m	class:Ui_NetworkConfig
+pskEdit	ui_networkconfig.h	/^    QLineEdit *pskEdit;$/;"	m	class:Ui_NetworkConfig
+pskLabel	ui_networkconfig.h	/^    QLabel *pskLabel;$/;"	m	class:Ui_NetworkConfig
+pushButton	ui_login.h	/^    QPushButton *pushButton;$/;"	m	class:Ui_Form
+pushButton	ui_mainview.h	/^    QPushButton *pushButton;$/;"	m	class:Ui_mainview
+pushButton	ui_netconfig.h	/^    QPushButton *pushButton;$/;"	m	class:Ui_NetConfig
+pushButton_1	ui_mainview.h	/^    QPushButton *pushButton_1;$/;"	m	class:Ui_mainview
+pushButton_2	ui_mainview.h	/^    QPushButton *pushButton_2;$/;"	m	class:Ui_mainview
+pushButton_3	ui_mainview.h	/^    QPushButton *pushButton_3;$/;"	m	class:Ui_mainview
+pushButton_4	ui_mainview.h	/^    QPushButton *pushButton_4;$/;"	m	class:Ui_mainview
+pushButton_5	ui_mainview.h	/^    QPushButton *pushButton_5;$/;"	m	class:Ui_mainview
+qt_meta_data_ChangePasswd	moc_changepassword.cpp	/^static const uint qt_meta_data_ChangePasswd[] = {$/;"	v	file:
+qt_meta_data_CreateVmlist	moc_createvm.cpp	/^static const uint qt_meta_data_CreateVmlist[] = {$/;"	v	file:
+qt_meta_data_Login	moc_login.cpp	/^static const uint qt_meta_data_Login[] = {$/;"	v	file:
+qt_meta_data_NetConfig	moc_netconfig.cpp	/^static const uint qt_meta_data_NetConfig[] = {$/;"	v	file:
+qt_meta_data_NetworkConfig	moc_networkconfig.cpp	/^static const uint qt_meta_data_NetworkConfig[] = {$/;"	v	file:
+qt_meta_data_ScanResults	moc_scanresults.cpp	/^static const uint qt_meta_data_ScanResults[] = {$/;"	v	file:
+qt_meta_data_SignalBar	moc_signalbar.cpp	/^static const uint qt_meta_data_SignalBar[] = {$/;"	v	file:
+qt_meta_data_SocketService	moc_socketservice.cpp	/^static const uint qt_meta_data_SocketService[] = {$/;"	v	file:
+qt_meta_data_Wifi	moc_wifi.cpp	/^static const uint qt_meta_data_Wifi[] = {$/;"	v	file:
+qt_meta_data_mainview	moc_mainview.cpp	/^static const uint qt_meta_data_mainview[] = {$/;"	v	file:
+qt_meta_stringdata_ChangePasswd	moc_changepassword.cpp	/^static const char qt_meta_stringdata_ChangePasswd[] = {$/;"	v	file:
+qt_meta_stringdata_CreateVmlist	moc_createvm.cpp	/^static const char qt_meta_stringdata_CreateVmlist[] = {$/;"	v	file:
+qt_meta_stringdata_Login	moc_login.cpp	/^static const char qt_meta_stringdata_Login[] = {$/;"	v	file:
+qt_meta_stringdata_NetConfig	moc_netconfig.cpp	/^static const char qt_meta_stringdata_NetConfig[] = {$/;"	v	file:
+qt_meta_stringdata_NetworkConfig	moc_networkconfig.cpp	/^static const char qt_meta_stringdata_NetworkConfig[] = {$/;"	v	file:
+qt_meta_stringdata_ScanResults	moc_scanresults.cpp	/^static const char qt_meta_stringdata_ScanResults[] = {$/;"	v	file:
+qt_meta_stringdata_SignalBar	moc_signalbar.cpp	/^static const char qt_meta_stringdata_SignalBar[] = {$/;"	v	file:
+qt_meta_stringdata_SocketService	moc_socketservice.cpp	/^static const char qt_meta_stringdata_SocketService[] = {$/;"	v	file:
+qt_meta_stringdata_Wifi	moc_wifi.cpp	/^static const char qt_meta_stringdata_Wifi[] = {$/;"	v	file:
+qt_meta_stringdata_mainview	moc_mainview.cpp	/^static const char qt_meta_stringdata_mainview[] = {$/;"	v	file:
+qt_metacall	moc_changepassword.cpp	/^int ChangePasswd::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:ChangePasswd
+qt_metacall	moc_createvm.cpp	/^int CreateVmlist::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:CreateVmlist
+qt_metacall	moc_login.cpp	/^int Login::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Login
+qt_metacall	moc_mainview.cpp	/^int mainview::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:mainview
+qt_metacall	moc_netconfig.cpp	/^int NetConfig::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:NetConfig
+qt_metacall	moc_networkconfig.cpp	/^int NetworkConfig::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:NetworkConfig
+qt_metacall	moc_scanresults.cpp	/^int ScanResults::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:ScanResults
+qt_metacall	moc_signalbar.cpp	/^int SignalBar::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:SignalBar
+qt_metacall	moc_socketservice.cpp	/^int SocketService::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:SocketService
+qt_metacall	moc_wifi.cpp	/^int Wifi::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:Wifi
+qt_metacast	moc_changepassword.cpp	/^void *ChangePasswd::qt_metacast(const char *_clname)$/;"	f	class:ChangePasswd
+qt_metacast	moc_createvm.cpp	/^void *CreateVmlist::qt_metacast(const char *_clname)$/;"	f	class:CreateVmlist
+qt_metacast	moc_login.cpp	/^void *Login::qt_metacast(const char *_clname)$/;"	f	class:Login
+qt_metacast	moc_mainview.cpp	/^void *mainview::qt_metacast(const char *_clname)$/;"	f	class:mainview
+qt_metacast	moc_netconfig.cpp	/^void *NetConfig::qt_metacast(const char *_clname)$/;"	f	class:NetConfig
+qt_metacast	moc_networkconfig.cpp	/^void *NetworkConfig::qt_metacast(const char *_clname)$/;"	f	class:NetworkConfig
+qt_metacast	moc_scanresults.cpp	/^void *ScanResults::qt_metacast(const char *_clname)$/;"	f	class:ScanResults
+qt_metacast	moc_signalbar.cpp	/^void *SignalBar::qt_metacast(const char *_clname)$/;"	f	class:SignalBar
+qt_metacast	moc_socketservice.cpp	/^void *SocketService::qt_metacast(const char *_clname)$/;"	f	class:SocketService
+qt_metacast	moc_wifi.cpp	/^void *Wifi::qt_metacast(const char *_clname)$/;"	f	class:Wifi
+rebootcomputer	mainview.cpp	/^void    mainview::rebootcomputer()$/;"	f	class:mainview
+rebootvmslots	socketservice.cpp	/^void    SocketService::rebootvmslots(const QString &vmid)\/\/reboot  virtual machine$/;"	f	class:SocketService
+reflushlisttable	mainview.cpp	/^void    mainview::reflushlisttable(const QString &vmhlist)$/;"	f	class:mainview
+registertocdms	socketservice.cpp	/^void    SocketService::registertocdms(const QString &registerdata)$/;"	f	class:SocketService
+removeButton	ui_networkconfig.h	/^    QPushButton *removeButton;$/;"	m	class:Ui_NetworkConfig
+resolus	netconfig.h	/^    QStringList   resolus;$/;"	m	class:NetConfig
+retranslateUi	ui_login.h	/^    void retranslateUi(QWidget *Form)$/;"	f	class:Ui_Form
+retranslateUi	ui_mainview.h	/^    void retranslateUi(QWidget *mainview)$/;"	f	class:Ui_mainview
+retranslateUi	ui_netconfig.h	/^    void retranslateUi(QDialog *NetConfig)$/;"	f	class:Ui_NetConfig
+retranslateUi	ui_networkconfig.h	/^    void retranslateUi(QDialog *NetworkConfig)$/;"	f	class:Ui_NetworkConfig
+retranslateUi	ui_scanresults.h	/^    void retranslateUi(QDialog *ScanResults)$/;"	f	class:Ui_ScanResults
+run	mainview.h	/^        void    run()$/;"	f	class:SpicyThread
+scanButton	ui_scanresults.h	/^    QPushButton *scanButton;$/;"	m	class:Ui_ScanResults
+scanResultsWidget	ui_scanresults.h	/^    QTreeWidget *scanResultsWidget;$/;"	m	class:Ui_ScanResults
+setButtonBackImage	createvm.cpp	/^void        CreateVmlist::setButtonBackImage(QPushButton *button,QString image,int sizeW, int sizeH)$/;"	f	class:CreateVmlist
+setcmd	mainview.h	/^        void    setcmd(const QString  &m){$/;"	f	class:SpicyThread
+setupUi	ui_login.h	/^    void setupUi(QWidget *Form)$/;"	f	class:Ui_Form
+setupUi	ui_mainview.h	/^    void setupUi(QWidget *mainview)$/;"	f	class:Ui_mainview
+setupUi	ui_netconfig.h	/^    void setupUi(QDialog *NetConfig)$/;"	f	class:Ui_NetConfig
+setupUi	ui_networkconfig.h	/^    void setupUi(QDialog *NetworkConfig)$/;"	f	class:Ui_NetworkConfig
+setupUi	ui_scanresults.h	/^    void setupUi(QDialog *ScanResults)$/;"	f	class:Ui_ScanResults
+shutdownvmslots	socketservice.cpp	/^void    SocketService::shutdownvmslots(const QString &vmid)\/\/shutdown   virtual  machine$/;"	f	class:SocketService
+siglogin	moc_wifi.cpp	/^void Wifi::siglogin(int _t1)$/;"	f	class:Wifi
+signals_cdms	moc_netconfig.cpp	/^void NetConfig::signals_cdms(const QString & _t1)$/;"	f	class:NetConfig
+signals_checkcdms	moc_mainview.cpp	/^void mainview::signals_checkcdms(const QString & _t1)$/;"	f	class:mainview
+signals_connect	moc_createvm.cpp	/^void CreateVmlist::signals_connect(const QString & _t1)$/;"	f	class:CreateVmlist
+signals_connectError	moc_socketservice.cpp	/^void SocketService::signals_connectError(int _t1)$/;"	f	class:SocketService
+signals_down	moc_createvm.cpp	/^void CreateVmlist::signals_down(const QString & _t1)$/;"	f	class:CreateVmlist
+signals_gethostlist	moc_socketservice.cpp	/^void SocketService::signals_gethostlist()$/;"	f	class:SocketService
+signals_httperror	moc_socketservice.cpp	/^void SocketService::signals_httperror(const QString & _t1)$/;"	f	class:SocketService
+signals_loginmsg	moc_login.cpp	/^void Login::signals_loginmsg(const QString & _t1)$/;"	f	class:Login
+signals_loginview	moc_socketservice.cpp	/^void SocketService::signals_loginview(int _t1)$/;"	f	class:SocketService
+signals_modify	moc_changepassword.cpp	/^void ChangePasswd::signals_modify(const QString & _t1)$/;"	f	class:ChangePasswd
+signals_modify	moc_mainview.cpp	/^void mainview::signals_modify(const QString & _t1)$/;"	f	class:mainview
+signals_modifycdms	moc_netconfig.cpp	/^void NetConfig::signals_modifycdms(const QString & _t1)$/;"	f	class:NetConfig
+signals_reboot	moc_createvm.cpp	/^void CreateVmlist::signals_reboot(const QString & _t1)$/;"	f	class:CreateVmlist
+signals_register	moc_socketservice.cpp	/^void SocketService::signals_register()$/;"	f	class:SocketService
+signals_start	moc_createvm.cpp	/^void CreateVmlist::signals_start(const QString & _t1)$/;"	f	class:CreateVmlist
+signals_startmigrate	moc_socketservice.cpp	/^void SocketService::signals_startmigrate(const QString & _t1)$/;"	f	class:SocketService
+signals_startspicy	moc_socketservice.cpp	/^void SocketService::signals_startspicy(const QString & _t1)$/;"	f	class:SocketService
+signals_startthread	moc_netconfig.cpp	/^void NetConfig::signals_startthread(const QString & _t1)$/;"	f	class:NetConfig
+signals_update	moc_wifi.cpp	/^void Wifi::signals_update()$/;"	f	class:Wifi
+signals_vm	moc_createvm.cpp	/^void CreateVmlist::signals_vm(const QString & _t1)$/;"	f	class:CreateVmlist
+signals_vmlist	moc_socketservice.cpp	/^void SocketService::signals_vmlist(const QString & _t1)$/;"	f	class:SocketService
+signals_widgets	moc_mainview.cpp	/^void mainview::signals_widgets(int _t1)$/;"	f	class:mainview
+skip	cJSON.c	/^static const char *skip(const char *in) {while (in && *in && (unsigned char)*in<=32) in++; return in;}$/;"	f	file:
+spacerItem	ui_networkconfig.h	/^    QSpacerItem *spacerItem;$/;"	m	class:Ui_NetworkConfig
+spacerItem	ui_scanresults.h	/^    QSpacerItem *spacerItem;$/;"	m	class:Ui_ScanResults
+spicy_thread_id	mainview.h	/^        QList<QString>      spicy_thread_id;$/;"	m	class:mainview
+ssidEdit	ui_networkconfig.h	/^    QLineEdit *ssidEdit;$/;"	m	class:Ui_NetworkConfig
+ssidLabel	ui_networkconfig.h	/^    QLabel *ssidLabel;$/;"	m	class:Ui_NetworkConfig
+startthread	mainview.cpp	/^void    mainview::startthread(const QString &msg)$/;"	f	class:mainview
+startvmslots	socketservice.cpp	/^void    SocketService::startvmslots(const QString &vmid)\/\/start   virtual  machine$/;"	f	class:SocketService
+staticMetaObject	moc_changepassword.cpp	/^const QMetaObject ChangePasswd::staticMetaObject = {$/;"	m	class:ChangePasswd	file:
+staticMetaObject	moc_createvm.cpp	/^const QMetaObject CreateVmlist::staticMetaObject = {$/;"	m	class:CreateVmlist	file:
+staticMetaObject	moc_login.cpp	/^const QMetaObject Login::staticMetaObject = {$/;"	m	class:Login	file:
+staticMetaObject	moc_mainview.cpp	/^const QMetaObject mainview::staticMetaObject = {$/;"	m	class:mainview	file:
+staticMetaObject	moc_netconfig.cpp	/^const QMetaObject NetConfig::staticMetaObject = {$/;"	m	class:NetConfig	file:
+staticMetaObject	moc_networkconfig.cpp	/^const QMetaObject NetworkConfig::staticMetaObject = {$/;"	m	class:NetworkConfig	file:
+staticMetaObject	moc_scanresults.cpp	/^const QMetaObject ScanResults::staticMetaObject = {$/;"	m	class:ScanResults	file:
+staticMetaObject	moc_signalbar.cpp	/^const QMetaObject SignalBar::staticMetaObject = {$/;"	m	class:SignalBar	file:
+staticMetaObject	moc_socketservice.cpp	/^const QMetaObject SocketService::staticMetaObject = {$/;"	m	class:SocketService	file:
+staticMetaObject	moc_wifi.cpp	/^const QMetaObject Wifi::staticMetaObject = {$/;"	m	class:Wifi	file:
+strConnectInfo	socketservice.h	/^    std::string strConnectInfo;$/;"	m	class:SocketService
+strhostlist	socketservice.h	/^    std::string strhostlist; $/;"	m	class:SocketService
+string	cJSON.h	/^	char *string;				\/* The item's name string, if this item is the child of, or is in the list of subitems of an object. *\/$/;"	m	struct:cJSON
+strloginCheck	socketservice.h	/^    std::string strloginCheck;$/;"	m	class:SocketService
+suffix_object	cJSON.c	/^static void suffix_object(cJSON *prev,cJSON *item) {prev->next=item;item->prev=prev;}$/;"	f	file:
+type	cJSON.h	/^	int type;					\/* The type of the item, as above. *\/$/;"	m	struct:cJSON
+ui	login.h	/^    Ui::Form  *ui;$/;"	m	class:Login
+ui	mainview.h	/^        Ui::mainview    *ui;$/;"	m	class:mainview
+ui	netconfig.h	/^    Ui::NetConfig *ui;$/;"	m	class:NetConfig
+update	cJSON.c	/^static int update(printbuffer *p)$/;"	f	file:
+updateUserinfo	socketservice.cpp	/^void    SocketService::updateUserinfo(const QString  &newpass)$/;"	f	class:SocketService
+useWpsButton	ui_networkconfig.h	/^    QPushButton *useWpsButton;$/;"	m	class:Ui_NetworkConfig
+user	createvm.h	/^    QString  user,newuser;$/;"	m	class:CreateVmlist
+user	socketservice.h	/^    std::string user;$/;"	m	class:SocketService
+username	changepassword.h	/^        QString         username;$/;"	m	class:ChangePasswd
+username	login.h	/^    QString  username;$/;"	m	class:Login
+username	netconfig.h	/^    QString     username;$/;"	m	class:NetConfig
+userpass	socketservice.h	/^    std::string  userpass;$/;"	m	class:SocketService
+valuedouble	cJSON.h	/^	double valuedouble;			\/* The item's number, if type==cJSON_Number *\/$/;"	m	struct:cJSON
+valueint	cJSON.h	/^	int valueint;				\/* The item's number, if type==cJSON_Number *\/$/;"	m	struct:cJSON
+valuestring	cJSON.h	/^	char *valuestring;			\/* The item's string, if type==cJSON_String *\/$/;"	m	struct:cJSON
+vboxLayout	ui_scanresults.h	/^    QVBoxLayout *vboxLayout;$/;"	m	class:Ui_ScanResults
+version	mainview.h	/^        QString         version;$/;"	m	class:mainview
+vmdata	createvm.h	/^        QString  vmdata;\/\/check if the same data every reflush.$/;"	m	class:CreateVmlist
+vmsendmg	createvm.h	/^    QVector <QString>  vmsendmg;$/;"	m	class:CreateVmlist
+vmsinfors	socketservice.h	/^    QList<QString>  vmsinfors;$/;"	m	class:SocketService
+vmslist	createvm.h	/^    QList <QPushButton *>  vmslist;$/;"	m	class:CreateVmlist
+vmstatus	socketservice.h	/^    std::string  vmstatus;$/;"	m	class:SocketService
+wep0Edit	ui_networkconfig.h	/^    QLineEdit *wep0Edit;$/;"	m	class:Ui_NetworkConfig
+wep0Radio	ui_networkconfig.h	/^    QRadioButton *wep0Radio;$/;"	m	class:Ui_NetworkConfig
+wep1Edit	ui_networkconfig.h	/^    QLineEdit *wep1Edit;$/;"	m	class:Ui_NetworkConfig
+wep1Radio	ui_networkconfig.h	/^    QRadioButton *wep1Radio;$/;"	m	class:Ui_NetworkConfig
+wep2Edit	ui_networkconfig.h	/^    QLineEdit *wep2Edit;$/;"	m	class:Ui_NetworkConfig
+wep2Radio	ui_networkconfig.h	/^    QRadioButton *wep2Radio;$/;"	m	class:Ui_NetworkConfig
+wep3Edit	ui_networkconfig.h	/^    QLineEdit *wep3Edit;$/;"	m	class:Ui_NetworkConfig
+wep3Radio	ui_networkconfig.h	/^    QRadioButton *wep3Radio;$/;"	m	class:Ui_NetworkConfig
+wepBox	ui_networkconfig.h	/^    QGroupBox *wepBox;$/;"	m	class:Ui_NetworkConfig
+widget	ui_netconfig.h	/^    QWidget *widget;$/;"	m	class:Ui_NetConfig
+widgetlist	ui_mainview.h	/^    QListWidget *widgetlist;$/;"	m	class:Ui_mainview
+widgetstack	ui_mainview.h	/^    QStackedWidget *widgetstack;$/;"	m	class:Ui_mainview
+width_	createvm.h	/^        int     width_;$/;"	m	class:CreateVmlist
+wifi	mainview.h	/^        Wifi            *wifi;$/;"	m	class:mainview
+wifioperator	mainview.cpp	/^void    mainview::wifioperator()$/;"	f	class:mainview
+~CHttpClient	http_curl.cpp	/^CHttpClient::~CHttpClient(void)$/;"	f	class:CHttpClient
+~Login	login.cpp	/^Login::~Login()$/;"	f	class:Login
+~NetConfig	netconfig.cpp	/^NetConfig::~NetConfig()$/;"	f	class:NetConfig
+~mainview	mainview.cpp	/^mainview::~mainview()$/;"	f	class:mainview

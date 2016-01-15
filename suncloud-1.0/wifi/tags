@@ -1,0 +1,128 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUTH_IEEE8021X	networkconfig.cpp	/^	AUTH_IEEE8021X,$/;"	e	enum:__anon1	file:
+AUTH_NONE_OPEN	networkconfig.cpp	/^	AUTH_NONE_OPEN,$/;"	e	enum:__anon1	file:
+AUTH_NONE_WEP	networkconfig.cpp	/^	AUTH_NONE_WEP,$/;"	e	enum:__anon1	file:
+AUTH_NONE_WEP_SHARED	networkconfig.cpp	/^	AUTH_NONE_WEP_SHARED,$/;"	e	enum:__anon1	file:
+AUTH_WPA2_EAP	networkconfig.cpp	/^	AUTH_WPA2_EAP$/;"	e	enum:__anon1	file:
+AUTH_WPA2_PSK	networkconfig.cpp	/^	AUTH_WPA2_PSK,$/;"	e	enum:__anon1	file:
+AUTH_WPA_EAP	networkconfig.cpp	/^	AUTH_WPA_EAP,$/;"	e	enum:__anon1	file:
+AUTH_WPA_PSK	networkconfig.cpp	/^	AUTH_WPA_PSK,$/;"	e	enum:__anon1	file:
+ErrorMsg	wifi.cpp	/^ErrorMsg::ErrorMsg(QWidget *parent, DWORD last_err) :$/;"	f	class:ErrorMsg
+ErrorMsg	wifi.cpp	/^class ErrorMsg : public QMessageBox {$/;"	c	file:
+LinkWifiSlots	wifi.cpp	/^void    Wifi::LinkWifiSlots()$/;"	f	class:Wifi
+NETWORKCONFIG_H	networkconfig.h	10;"	d
+NetworkConfig	networkconfig.cpp	/^NetworkConfig::NetworkConfig(QWidget *parent, const char *, bool,$/;"	f	class:NetworkConfig
+NetworkConfig	networkconfig.h	/^class NetworkConfig : public QDialog, public Ui::NetworkConfig$/;"	c
+SCANRESULTSITEM_H	scanresultsitem.h	10;"	d
+SCANRESULTS_H	scanresults.h	10;"	d
+SIGNALBAR_H	signalbar.h	10;"	d
+ScanResults	scanresults.cpp	/^ScanResults::ScanResults(QWidget *parent, const char *, bool, Qt::WindowFlags)$/;"	f	class:ScanResults
+ScanResults	scanresults.h	/^class ScanResults : public QDialog, public Ui::ScanResults$/;"	c
+ScanResultsItem	scanresultsitem.h	/^	ScanResultsItem(QTreeWidget *tree) : QTreeWidgetItem(tree) {}$/;"	f	class:ScanResultsItem
+ScanResultsItem	scanresultsitem.h	/^class ScanResultsItem : public QTreeWidgetItem$/;"	c
+SignalBar	signalbar.cpp	/^SignalBar::SignalBar(QObject *parent)$/;"	f	class:SignalBar
+SignalBar	signalbar.h	/^class SignalBar : public QStyledItemDelegate$/;"	c
+WIFI_H	wifi.h	9;"	d
+WPAMSG_H	wpamsg.h	10;"	d
+WPASVC_NAME	wifi.cpp	1633;"	d	file:
+WPA_GUI_KEY_DATA	networkconfig.cpp	26;"	d	file:
+Wifi	wifi.cpp	/^Wifi::Wifi(QWidget *parent) :$/;"	f	class:Wifi
+Wifi	wifi.h	/^class Wifi : public QDialog$/;"	c
+WpaMsg	wpamsg.h	/^	WpaMsg(const QString &_msg, int _priority = 2)$/;"	f	class:WpaMsg
+WpaMsg	wpamsg.h	/^class WpaMsg {$/;"	c
+WpaMsgList	wpamsg.h	/^typedef QLinkedList<WpaMsg> WpaMsgList;$/;"	t
+addInterface	wifi.cpp	/^void Wifi::addInterface()$/;"	f	class:Wifi
+addNetwork	networkconfig.cpp	/^void NetworkConfig::addNetwork()$/;"	f	class:NetworkConfig
+authChanged	networkconfig.cpp	/^void NetworkConfig::authChanged(int sel)$/;"	f	class:NetworkConfig
+bssSelected	scanresults.cpp	/^void ScanResults::bssSelected(QTreeWidgetItem *sel)$/;"	f	class:ScanResults
+bssid	networkconfig.h	/^	QString bssid;$/;"	m	class:NetworkConfig
+connectB	wifi.cpp	/^void Wifi::connectB()$/;"	f	class:Wifi
+connectbtn	wifi.h	/^    QPushButton  *connectbtn;$/;"	m	class:Wifi
+connectedname	wifi.h	/^    QString  connectedname;$/;"	m	class:Wifi
+ctrlRequest	wifi.cpp	/^int Wifi::ctrlRequest(const char *cmd, char *buf, size_t *buflen)$/;"	f	class:Wifi
+ctrl_conn	wifi.h	/^	struct wpa_ctrl *ctrl_conn;$/;"	m	class:Wifi	typeref:struct:Wifi::wpa_ctrl
+ctrl_iface	wifi.h	/^	char *ctrl_iface;$/;"	m	class:Wifi
+ctrl_iface_dir	wifi.h	/^	char *ctrl_iface_dir;$/;"	m	class:Wifi
+debug	wifi.cpp	23;"	d	file:
+debug	wifi.cpp	25;"	d	file:
+disconnect	wifi.cpp	/^void Wifi::disconnect()$/;"	f	class:Wifi
+disconnectbtn	wifi.h	/^    QPushButton  *disconnectbtn;$/;"	m	class:Wifi
+eapChanged	networkconfig.cpp	/^void NetworkConfig::eapChanged(int sel)$/;"	f	class:NetworkConfig
+edit_network_id	networkconfig.h	/^	int edit_network_id;$/;"	m	class:NetworkConfig
+encrChanged	networkconfig.cpp	/^void NetworkConfig::encrChanged(const QString &)$/;"	f	class:NetworkConfig
+err	wifi.cpp	/^	DWORD err;$/;"	m	class:ErrorMsg	file:
+getEapCapa	networkconfig.cpp	/^void NetworkConfig::getEapCapa()$/;"	f	class:NetworkConfig
+getMsg	wpamsg.h	/^	QString getMsg() const { return msg; }$/;"	f	class:WpaMsg
+getPriority	wpamsg.h	/^	int getPriority() const { return priority; }$/;"	f	class:WpaMsg
+getResults	scanresults.cpp	/^void ScanResults::getResults()$/;"	f	class:ScanResults
+getTimestamp	wpamsg.h	/^	QDateTime getTimestamp() const { return timestamp; }$/;"	f	class:WpaMsg
+items	scanresults.h	/^    QStringList  items;$/;"	m	class:ScanResults
+key_value_isset	networkconfig.cpp	/^static int key_value_isset(const char *reply, size_t reply_len)$/;"	f	file:
+languageChange	networkconfig.cpp	/^void NetworkConfig::languageChange()$/;"	f	class:NetworkConfig
+languageChange	scanresults.cpp	/^void ScanResults::languageChange()$/;"	f	class:ScanResults
+monitor_conn	wifi.h	/^	struct wpa_ctrl *monitor_conn;$/;"	m	class:Wifi	typeref:struct:Wifi::wpa_ctrl
+msg	wpamsg.h	/^	QString msg;$/;"	m	class:WpaMsg
+msgNotifier	wifi.h	/^	QSocketNotifier *msgNotifier;$/;"	m	class:Wifi
+msgs	wifi.h	/^	WpaMsgList msgs;$/;"	m	class:Wifi
+networkList	wifi.h	/^    QListWidget   *networkList;$/;"	m	class:Wifi
+networkMayHaveChanged	wifi.h	/^	bool networkMayHaveChanged;$/;"	m	class:Wifi
+networkSelect	wifi.h	/^    QComboBox   *networkSelect;$/;"	m	class:Wifi
+networklist	wifi.h	/^    QStringList   *networklist;$/;"	m	class:Wifi
+newNetwork	networkconfig.cpp	/^void NetworkConfig::newNetwork()$/;"	f	class:NetworkConfig
+new_network	networkconfig.h	/^	bool new_network;$/;"	m	class:NetworkConfig
+openCtrlConnection	wifi.cpp	/^int Wifi::openCtrlConnection(const char *ifname)$/;"	f	class:Wifi
+operator <	scanresultsitem.cpp	/^bool ScanResultsItem::operator< (const QTreeWidgetItem &other) const$/;"	f	class:ScanResultsItem
+paint	signalbar.cpp	/^void SignalBar::paint(QPainter *painter,$/;"	f	class:SignalBar
+paramsFromConfig	networkconfig.cpp	/^void NetworkConfig::paramsFromConfig(int network_id)$/;"	f	class:NetworkConfig
+paramsFromScanResults	networkconfig.cpp	/^void NetworkConfig::paramsFromScanResults(QTreeWidgetItem *sel)$/;"	f	class:NetworkConfig
+ping	wifi.cpp	/^void Wifi::ping()$/;"	f	class:Wifi
+pingsToStatusUpdate	wifi.h	/^	int pingsToStatusUpdate;$/;"	m	class:Wifi
+priority	wpamsg.h	/^	int priority;$/;"	m	class:WpaMsg
+processMsg	wifi.cpp	/^void Wifi::processMsg(char *msg)$/;"	f	class:Wifi
+qlist	scanresults.h	/^    QListWidget  *qlist;$/;"	m	class:ScanResults
+receiveMsgs	wifi.cpp	/^void Wifi::receiveMsgs()$/;"	f	class:Wifi
+removeNetwork	networkconfig.cpp	/^void NetworkConfig::removeNetwork()$/;"	f	class:NetworkConfig
+scan	wifi.cpp	/^void Wifi::scan()$/;"	f	class:Wifi
+scanRequest	scanresults.cpp	/^void ScanResults::scanRequest()$/;"	f	class:ScanResults
+scanbtn	wifi.h	/^    QPushButton  *scanbtn;$/;"	m	class:Wifi
+scanres	wifi.h	/^	ScanResults *scanres;$/;"	m	class:Wifi
+sel	scanresults.h	/^    QTreeWidgetItem sel;$/;"	m	class:ScanResults
+selectNetwork	wifi.cpp	/^void Wifi::selectNetwork( const QString &sel )$/;"	f	class:Wifi
+serviceRunning	wifi.cpp	/^bool Wifi::serviceRunning()$/;"	f	class:Wifi
+setNetworkParam	networkconfig.cpp	/^int NetworkConfig::setNetworkParam(int id, const char *field,$/;"	f	class:NetworkConfig
+setWpaGui	networkconfig.cpp	/^void NetworkConfig::setWpaGui(Wifi *_wpagui)$/;"	f	class:NetworkConfig
+setWpaGui	scanresults.cpp	/^void ScanResults::setWpaGui(Wifi *_wpagui,QListWidget  *list)$/;"	f	class:ScanResults
+showMsg	wifi.cpp	/^void ErrorMsg::showMsg(QString msg)$/;"	f	class:ErrorMsg
+signalMeterInterval	wifi.h	/^	int signalMeterInterval;$/;"	m	class:Wifi
+signalMeterTimer	wifi.h	/^    QTimer *signalMeterTimer;$/;"	m	class:Wifi
+signalMeterUpdate	wifi.cpp	/^void Wifi::signalMeterUpdate()$/;"	f	class:Wifi
+startService	wifi.cpp	/^void Wifi::startService()$/;"	f	class:Wifi
+stopService	wifi.cpp	/^void Wifi::stopService()$/;"	f	class:Wifi
+str_match	wifi.cpp	/^static int str_match(const char *a, const char *b)$/;"	f	file:
+textAuthentication	wifi.h	/^    QLabel  *textAuthentication;$/;"	m	class:Wifi
+textBssid	wifi.h	/^    QLabel  *textBssid;$/;"	m	class:Wifi
+textEncryption	wifi.h	/^    QLabel  *textEncryption;$/;"	m	class:Wifi
+textIpAddress	wifi.h	/^    QLabel  *textIpAddress;$/;"	m	class:Wifi
+textSsid	wifi.h	/^    QLabel  *textSsid;$/;"	m	class:Wifi
+textStatus	wifi.h	/^    QLabel  *textStatus;$/;"	m	class:Wifi
+timer	wifi.h	/^	QTimer *timer;$/;"	m	class:Wifi
+timestamp	wpamsg.h	/^	QDateTime timestamp;$/;"	m	class:WpaMsg
+triggerUpdate	wifi.cpp	/^void Wifi::triggerUpdate()$/;"	f	class:Wifi
+updateNetworks	wifi.cpp	/^void Wifi::updateNetworks()$/;"	f	class:Wifi
+updateResults	scanresults.cpp	/^void ScanResults::updateResults()$/;"	f	class:ScanResults
+updateStatus	wifi.cpp	/^void Wifi::updateStatus()$/;"	f	class:Wifi
+useWps	networkconfig.cpp	/^void NetworkConfig::useWps()$/;"	f	class:NetworkConfig
+wepEnabled	networkconfig.cpp	/^void NetworkConfig::wepEnabled(bool enabled)$/;"	f	class:NetworkConfig
+wpaStateTranslate	wifi.cpp	/^QString Wifi::wpaStateTranslate(char *state)$/;"	f	class:Wifi
+wpagui	networkconfig.h	/^	Wifi *wpagui;$/;"	m	class:NetworkConfig
+wpagui	scanresults.h	/^	Wifi *wpagui;$/;"	m	class:ScanResults
+writeWepKey	networkconfig.cpp	/^void NetworkConfig::writeWepKey(int network_id, QLineEdit *edit, int id)$/;"	f	class:NetworkConfig
+~NetworkConfig	networkconfig.cpp	/^NetworkConfig::~NetworkConfig()$/;"	f	class:NetworkConfig
+~ScanResults	scanresults.cpp	/^ScanResults::~ScanResults()$/;"	f	class:ScanResults
+~SignalBar	signalbar.cpp	/^SignalBar::~SignalBar()$/;"	f	class:SignalBar
+~Wifi	wifi.cpp	/^Wifi::~Wifi()$/;"	f	class:Wifi
